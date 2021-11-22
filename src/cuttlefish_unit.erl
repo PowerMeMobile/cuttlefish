@@ -1,6 +1,7 @@
 -module(cuttlefish_unit).
 
 -include_lib("eunit/include/eunit.hrl").
+-compile(nowarn_export_all).
 -compile(export_all).
 
 generate_templated_config(FileName, Conf, Context) ->
